@@ -7,11 +7,11 @@ describe("Transformar numero", () => {
     require("./presenter.js");
   });
 
-  it("Mostrar el cambio despues de presionar el boton de 'cambio'", () => {
-    let botonCambio = document.querySelector("#botoncambio");
+  it("Mostrar el vacio despues de presionar el boton de 'transformar'", () => {
+    let boton = document.querySelector("#botonTransform");
     const div = document.querySelector("#resultado-div");
-    botonCambio.click();
+    boton.click();
     
-    expect(div.innerHTML).toEqual("<p> Cambio: NaN Bs.</p>");
+    expect(div.innerHTML).toEqual("<p></p>");
   });
 }); 
