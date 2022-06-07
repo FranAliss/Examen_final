@@ -7,4 +7,8 @@ describe("Transformar", () => {
   it("Devolver uno si no se ingresa 1", () => {
     expect(transform(1)).toEqual("uno");
   });
+  it("Devolver dos si no se ingresa 2", () => {
+    expect(transform(2)).toEqual("dos");
+  });
+  
 });

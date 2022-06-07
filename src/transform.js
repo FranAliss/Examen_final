@@ -4,6 +4,10 @@ function transform(num) {
   {
     res = "uno";
   }
+  if(num==2)
+  {
+    res = "dos";
+  }
   return res;
 }
 
