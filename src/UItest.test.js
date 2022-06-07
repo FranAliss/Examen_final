@@ -14,4 +14,12 @@ describe("Transformar numero", () => {
     
     expect(div.innerHTML).toEqual("<p></p>");
   });
+
+  it("Mostrar la casilla de entrada de numero", () => {
+    let boton = document.querySelector("#botonTransform");
+    const casilla = document.querySelector("#numero");
+    boton.click();
+    
+    expect(casilla.style.display).toEqual("");
+  });
 }); 
